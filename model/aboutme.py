@@ -31,4 +31,4 @@ def aboutme():
         st.markdown("- 🐙 [GitHub](https://github.com/thxplay)")
 
     with col2:
-        st.image("../images/myprofil.png", width=500, caption="Okaviantama Karunia Haris")  # Ganti dengan foto profil atau logo
+        st.image("images/myprofil.png", width=500, caption="Okaviantama Karunia Haris")  # Ganti dengan foto profil atau logo

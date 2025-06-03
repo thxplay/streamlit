@@ -4,26 +4,26 @@ def insight():
     st.header('📈 Dashboard Visualisasi PowerBI & Insightnya')
     with st.expander("### Dashboard Visualisasi with PowerBI"):
         st.markdown('<div style="text-align: justify;">Dashboard Visualisasi hanya memiliki 1 halaman dan memiliki 6 kategori untuk slicer dengan total 12 slicers. Warna pada dashboard menyesuaikan gradiasi logo Istanbul.</div>', unsafe_allow_html=True)
-        st.image("../images/istanbulcs1.png")
+        st.image("images/istanbulcs1.png")
         row1, row2, row3 = st.columns([1, 1, 1])
         with row1:
-            st.image("../images/istanbulcs2.png")
+            st.image("images/istanbulcs2.png")
         with row2:
-            st.image("../images/istanbulcs3.png")
+            st.image("images/istanbulcs3.png")
         with row3:
-            st.image("../images/istanbulcs4.png")
+            st.image("images/istanbulcs4.png")
         row1, row2, row3 = st.columns([1, 1, 1])
         with row1:
-            st.image("../images/istanbulcs5.png")
+            st.image("images/istanbulcs5.png")
         with row2:
-            st.image("../images/istanbulcs6.png")
+            st.image("images/istanbulcs6.png")
         with row3:
-            st.image("../images/istanbulcs7.png")
+            st.image("images/istanbulcs7.png")
     # 1. User Count by Segment
     with st.expander("### 👥 User Count by Segment"):
         row1, row2, row3 = st.columns([1, 2, 2])
         with row1:
-            st.image("../images/11.png")
+            st.image("images/11.png")
         with row2:
             st.markdown("""
             **Insight**  
@@ -41,13 +41,13 @@ def insight():
             - **Champion** : Berikan apresiasi khusus agar makin loyal.
             """)
         with row3:
-            st.image("../images/12.png")
+            st.image("images/12.png")
 
     # 2. User by Gender
     with st.expander("### 👤 User by Gender"):
         row1, row2, row3 = st.columns([2, 2, 1])
         with row1:
-            st.image("../images/21.png")
+            st.image("images/21.png")
         with row2:
             st.markdown("""
             **Insight**  
@@ -62,13 +62,13 @@ def insight():
             - Gunakan **influencer marketing** yang relevan dengan masing-masing gender untuk meningkatkan daya tarik dan engagement.
             """)
         with row3:
-            st.image("../images/22.png")
+            st.image("images/22.png")
 
     # 3. Best-Selling Categories
     with st.expander("### 🛒 Best-Selling Categories"):
         row1, row2, row3 = st.columns([1, 2, 2])
         with row1:
-            st.image("../images/31.png")
+            st.image("images/31.png")
         with row2:
             st.markdown("""
             **Insight**  
@@ -84,13 +84,13 @@ def insight():
             - Lakukan kolaborasi brand/konten untuk meningkatkan daya tarik kategori bawah seperti books & tech — arahkan ke segmen niche atau loyalis.
             """)
         with row3:
-            st.image("../images/32.png")
+            st.image("images/32.png")
 
     # 4. Shopping Malls by Revenue
     with st.expander("### 🏬 Shopping Malls by Revenue"):
         row1, row2, row3 = st.columns([2, 2, 1])
         with row1:
-            st.image("../images/41.png")
+            st.image("images/41.png")
         with row2:
             st.markdown("""
             **Insight**  
@@ -106,13 +106,13 @@ def insight():
             - Di mall dengan pendapatan rendah, dorong segmentasi ulang dan inisiatif pemasaran lokal untuk aktifkan segmen Potential Loyalist & Recent Customer.
             """)
         with row3:
-            st.image("../images/42.png")
+            st.image("images/42.png")
 
     # 5. Revenue Growth by Time
     with st.expander("### 📅 Revenue Growth by Year, Quarter and Month"):
         row1, row2, row3 = st.columns([1, 2, 2])
         with row1:
-            st.image("../images/51.png")
+            st.image("images/51.png")
         with row2:
             st.markdown("""
             **Insight**  
@@ -129,7 +129,7 @@ def insight():
             - Kolaborasi dengan kategori terlaris (mis. clothing & cosmetics) untuk penawaran bundling guna menaikkan engagement di masa pemulihan.
             """)
         with row3:
-            st.image("../images/52.png")
+            st.image("images/52.png")
 
     # Kesimpulan
     with st.expander("### 🧾 Kesimpulan Gabungan"):
