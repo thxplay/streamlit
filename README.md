@@ -140,7 +140,7 @@ Dengan dataset transaksi pelanggan di beberapa pusat perbelanjaan besar di Istan
 ---
 
 ## 📂 Folder Structure
-📁 dataset/
+📁 dataset/ <br>
 ├── data_cs_shop_istanbul.xlsx # Dataset
 📁 model/
 ├── 📁 .streamlit # Tema yang digunakan
