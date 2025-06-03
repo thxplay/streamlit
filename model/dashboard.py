@@ -10,7 +10,7 @@ os.environ["PLOTLY_DISABLE_NARWHALS"] = "true"
 def dashboard():
     #######################
     # 📁 Load Data
-    df = pd.read_excel('../dataset/data_cs_shop_instanbul.xlsx')
+    df = pd.read_excel('dataset/data_cs_shop_instanbul.xlsx')
     df['invoice_date'] = pd.to_datetime(df['invoice_date'], errors='coerce')
     df['revenue'] = df['quantity'] * df['price']
 
@@ -60,7 +60,7 @@ def dashboard():
 
     #######################
     # 📢 Header
-    st.image("../images/istanbul.png", width=250)
+    st.image("images/istanbul.png", width=250)
     st.title("RFM Customer Segmentation")
     st.info("Menganalisis Pola Pembelian Konsumen melalui Analisis Pembelian Produk di Kota Istanbul")
 
