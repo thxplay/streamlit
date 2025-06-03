@@ -5,3 +5,8 @@ backgroundColor = "#121212"  # Latar belakang gelap
 secondaryBackgroundColor = "#181818"  # Latar belakang sidebar
 textColor = "#FFFFFF"  # Teks putih
 font = "sans serif"
+
+[server]
+headless = true
+enableCORS = false
+port = 8501
