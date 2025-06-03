@@ -188,11 +188,11 @@ if page == 'Data Understanding':
         row1, row2, row3 = st.columns([2, 1, 2])
 
         with row1:
-            st.image("../images/rfm1.png", caption="Total Score Formula RFM", use_container_width=True)
+            st.image("images/rfm1.png", caption="Total Score Formula RFM", use_container_width=True)
         with row2:
-            st.image("../images/rfm2.png", caption="Distribution RFM Score", use_container_width=True)
+            st.image("images/rfm2.png", caption="Distribution RFM Score", use_container_width=True)
         with row3:
-            st.image("../images/rfm3.png", caption="Customer Segmentation Strategy & Action", use_container_width=True)
+            st.image("images/rfm3.png", caption="Customer Segmentation Strategy & Action", use_container_width=True)
 
         st.markdown("---")
 
@@ -207,7 +207,7 @@ if page == 'Data Understanding':
             """)
 
         with right_col:
-            st.image("../images/rfm4.png", caption="RFM Quartile", use_container_width=True)
+            st.image("images/rfm4.png", caption="RFM Quartile", use_container_width=True)
 
 
 elif page == 'Dashboard':
