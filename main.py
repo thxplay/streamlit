@@ -67,7 +67,7 @@ if page == 'Data Understanding':
         info_df = pd.DataFrame({
             "Kolom": df.columns,
             "Non-Null Count": df.notnull().sum().values,
-            "Tipe Data": df.dtypes.values
+            "Tipe Data": df.dtypes.astype(str).values
             })
         st.subheader("📋 Informasi Struktur Datasets (After Pre Processing)")
         st.dataframe(info_df)
