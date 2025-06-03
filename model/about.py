@@ -35,7 +35,7 @@ if page == 'Data Understanding':
 
     col1, col2, col3 = st.columns([1, 2, 1])  # kolom tengah lebih lebar
     with col2:
-        st.image("../images/istanbul-thumb.jpg", use_container_width=True)
+        st.image("images/istanbul-thumb.jpg", use_container_width=True)
 
     with st.expander("📋 About Dataset"):
         st.write('## Dataset : data_cs_shop_Istanbul')
@@ -59,7 +59,7 @@ if page == 'Data Understanding':
         | `shopping_mall`     | Nama pusat perbelanjaan tempat transaksi dilakukan                           |
         """)
 
-        df = pd.read_excel('../dataset/data_cs_shop_instanbul.xlsx')
+        df = pd.read_excel('dataset/data_cs_shop_instanbul.xlsx')
         st.markdown("<h2 style='text-align: justify;'>Datasets</h2>", unsafe_allow_html=True)
         st.dataframe(df)
         if 'Unnamed: 0' in df.columns:
