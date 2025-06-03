@@ -35,7 +35,7 @@ if page == 'Data Understanding':
 
     col1, col2, col3 = st.columns([1, 2, 1])  # kolom tengah lebih lebar
     with col2:
-        st.image("../images/istanbul-thumb.jpg", use_container_width=True)
+        st.image("images/istanbul-thumb.jpg", use_container_width=True)
 
     with st.expander("📋 About Dataset"):
         st.write('## Dataset : data_cs_shop_Istanbul')
@@ -59,7 +59,7 @@ if page == 'Data Understanding':
         | `shopping_mall`     | Nama pusat perbelanjaan tempat transaksi dilakukan                           |
         """)
 
-        df = pd.read_excel('../dataset/data_cs_shop_instanbul.xlsx')
+        df = pd.read_excel('dataset/data_cs_shop_instanbul.xlsx')
         st.markdown("<h2 style='text-align: justify;'>Datasets</h2>", unsafe_allow_html=True)
         st.dataframe(df)
         if 'Unnamed: 0' in df.columns:
@@ -188,11 +188,11 @@ if page == 'Data Understanding':
         row1, row2, row3 = st.columns([2, 1, 2])
 
         with row1:
-            st.image("../images/rfm1.png", caption="Total Score Formula RFM", use_container_width=True)
+            st.image("images/rfm1.png", caption="Total Score Formula RFM", use_container_width=True)
         with row2:
-            st.image("../images/rfm2.png", caption="Distribution RFM Score", use_container_width=True)
+            st.image("images/rfm2.png", caption="Distribution RFM Score", use_container_width=True)
         with row3:
-            st.image("../images/rfm3.png", caption="Customer Segmentation Strategy & Action", use_container_width=True)
+            st.image("images/rfm3.png", caption="Customer Segmentation Strategy & Action", use_container_width=True)
 
         st.markdown("---")
 
@@ -207,7 +207,7 @@ if page == 'Data Understanding':
             """)
 
         with right_col:
-            st.image("../images/rfm4.png", caption="RFM Quartile", use_container_width=True)
+            st.image("images/rfm4.png", caption="RFM Quartile", use_container_width=True)
 
 
 elif page == 'Dashboard':
