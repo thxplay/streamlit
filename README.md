@@ -16,6 +16,19 @@
 Customer Shopping Dataset -  Retail Sales Data
 https://www.kaggle.com/datasets/mehmettahiraslan/customer-shopping-dataset
 
+| Nama Variabel   | Deskripsi                                                                 |
+|---------------------|-------------------------------------------------------------------------------|
+| `invoice_no`        | Nomor faktur unik untuk setiap transaksi. Format: kombinasi huruf "I" dan 6 digit angka |
+| `customer_id`       | ID unik pelanggan. Format: kombinasi huruf "C" dan 6 digit angka             |
+| `gender`            | Jenis kelamin pelanggan (Laki-laki / Perempuan)                              |
+| `age`               | Usia pelanggan dalam bilangan bulat positif                                  |
+| `category`          | Kategori produk yang dibeli (misalnya: Clothing, Cosmetics, dll)             |
+| `quantity`          | Jumlah unit produk yang dibeli dalam satu transaksi                          |
+| `price`             | Harga satuan produk dalam Lira Turki (TL)                                    |
+| `payment_method`    | Metode pembayaran yang digunakan (Tunai, Kartu Kredit, Kartu Debit)          |
+| `invoice_date`      | Tanggal saat transaksi terjadi                                               |
+| `shopping_mall`     | Nama pusat perbelanjaan tempat transaksi dilakukan                           |
+
 ---
 
 ## 🚀 Project Overview
@@ -76,9 +89,9 @@ Dengan dataset transaksi pelanggan di beberapa pusat perbelanjaan besar di Istan
 
 ## 🧠 Methodology
 
-### 1. Data Preprocessing  
+### 1. Data Pre processing  
 - Membersihkan missing value  
-- Analisis distribusi kolom (age, price, quantity)  
+- Analisis distribuscdi kolom (age, price, quantity)  
 - Filtering outliers berdasarkan harga
 
 ### 2. RFM Analysis  
@@ -127,3 +140,12 @@ Dengan dataset transaksi pelanggan di beberapa pusat perbelanjaan besar di Istan
 ---
 
 ## 📂 Folder Structure
+📁 dataset/
+├── data_cs_shop_istanbul.xlsx # Dataset
+📁 model/
+├── 📁 .streamlit # Tema yang digunakan
+├── about.py # Main Streamlit app (Data Understanding & Data Pre Processing)
+├── dashboard.py # Visualisasi Streamlit
+├── insight.py # Screencapture Dashboard PowerBI & Insight
+├── aboutme.py # About Me
+📁 images/ # Folder Kumpulan Foto-foto dan screen capture Dashboard
