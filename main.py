@@ -211,13 +211,13 @@ if page == 'Data Understanding':
 
 
 elif page == 'Dashboard':
-    import dashboard
+    from model import dashboard
     dashboard.dashboard()
 
 elif page == 'Insight':
-    import insight
+    from model import insight
     insight.insight()
 
 elif page == 'About Me':
-    import aboutme
+    from model import aboutme
     aboutme.aboutme()
