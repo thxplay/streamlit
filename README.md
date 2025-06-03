@@ -117,7 +117,7 @@ Dengan dataset transaksi pelanggan di beberapa pusat perbelanjaan besar di Istan
 `[lokasi hosting jika ada]`
 
 📈 **PowerBI Dashboard**:  
-`[screenshot atau link PowerBI]`
+`https://drive.google.com/drive/folders/1rC8XGQ84qfpC5X-4kRBF-l2pDPO_TAqy?usp=sharing`
 
 ---
 
@@ -141,11 +141,11 @@ Dengan dataset transaksi pelanggan di beberapa pusat perbelanjaan besar di Istan
 
 ## 📂 Folder Structure
 📁 dataset/ <br>
-├── data_cs_shop_istanbul.xlsx # Dataset
-📁 model/
-├── 📁 .streamlit # Tema yang digunakan
-├── about.py # Main Streamlit app (Data Understanding & Data Pre Processing)
-├── dashboard.py # Visualisasi Streamlit
-├── insight.py # Screencapture Dashboard PowerBI & Insight
-├── aboutme.py # About Me
-📁 images/ # Folder Kumpulan Foto-foto dan screen capture Dashboard
+├── 📄 data_cs_shop_istanbul.xlsx # Dataset <br>
+📁 images/ # Folder Kumpulan Foto-foto dan screen capture Dashboard <br>
+📁 model/ <br>
+├── 📄 about.py # Main Streamlit app (Data Understanding & Data Pre Processing) <br>
+├── 📄 dashboard.py # Visualisasi Streamlit <br>
+├── 📄 insight.py # Screencapture Dashboard PowerBI & Insight <br>
+├── 📄 aboutme.py # About Me <br>
+└── 📁 .streamlit # Tema yang digunakan <br> 
