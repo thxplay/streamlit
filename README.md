@@ -140,7 +140,7 @@ Dengan dataset transaksi pelanggan di beberapa pusat perbelanjaan besar di Istan
 ---
 
 ## 📂 Folder Structure
-streamlit/
+streamlit/ <br>
 📁 dataset/ <br>
 ├── 📄 data_cs_shop_istanbul.xlsx # Dataset <br>
 📁 images/ # Folder Kumpulan Foto-foto dan screen capture Dashboard <br>
