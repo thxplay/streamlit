@@ -114,7 +114,7 @@ Dengan dataset transaksi pelanggan di beberapa pusat perbelanjaan besar di Istan
 ## 📊 Dashboard Preview
 
 🔗 **Streamlit Dashboard**:  
-`[lokasi hosting jika ada]`
+`https://rfm-customer-segmentation-istanbul-thxplay.streamlit.app/`
 
 📈 **PowerBI Dashboard**:  
 `https://drive.google.com/drive/folders/1rC8XGQ84qfpC5X-4kRBF-l2pDPO_TAqy?usp=sharing`
