@@ -83,7 +83,6 @@ Dengan dataset transaksi pelanggan di beberapa pusat perbelanjaan besar di Istan
 | Matplotlib, Seaborn | Visualisasi statistik              |
 | PowerBI          | Insight dashboard visualisasi lanjutan |
 | scikit-learn     | Clustering dan segmentasi tambahan    |
-| Streamlit        | Clustering dan segmentasi tambahan    |
 
 ---
 
